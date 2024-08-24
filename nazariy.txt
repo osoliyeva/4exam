@@ -1,0 +1,57 @@
+1-savol
+List va tuple farqi nimada?
+
+Javob: list bu elementlar to'plami bo'lib bunda ma'lumotlar tartiblangan ya'ni indexga ega bo'ladi.
+yana list() ustida qo'shish ayrish qidirish metodlarini(insert, extend,pop,remove,del,clear)ishlatish mumkin.
+ya'ni listga element qo'shish element o'chirish va uni qidirish mumkin.
+tuple esa listga o'xshagan non primitive ma'lumot turi (aslida ikkisi ham non primitive) bo'lib unga element qo'shib ayrib bo'lmeydi.
+uni ustida faqat 2 ta (index, copy (bularni listda ham ishlatsa bo'ladi.))metodni ishlatish mumkin.
+
+
+
+2-savol
+Insert va extend methodlari farqi nimda va bu methodlar qaysi malumot turiga kiradi ? Yana qanda shu data typega tegishli methodlarni bilasiz? 
+
+javob:
+bu ikkala metod ham list ni qo'shish metodlari hisoblanadi.
+insert(index,"element") ya'ni berilgan indexga berilgan elementni qo'shib beradi.
+extend(list) bu metod esa listga listni qo'shib beradi.
+yana listga tegishli metodlar:
+del, remove, pop, clear o'chirish metodlari
+reverse- listni elementlarini teskari tartiblab beradi
+reverse ekvivalent list[::-1]
+insert, extent, index, copy sort kabi metodlariyam bor.
+
+
+3-savol
+Inkapsulyatsiya necha turli va bir-biridan nima farqi bor
+
+javob:
+inkapsulatsiya turlari: public private protected
+private __ bilan elon qilinadiga propertilar bo'lib ularning chiqish va kirish metodlari mavjud 
+protected _ bilan yoziladigan propertilar ularni dasturchilar uchun bo'lib ulardagi ma'lumotlardan dasturchilar foydalana oladi va mahfiyligi yuqori.
+
+
+
+
+4-savol
+Git va Github ni farqi nimada va gitda bilgan kamandangizdan kamida 5 ta yozing.
+
+javob:
+github bu gitni online versiyasi. gitda malumotlar versiya controllari localniy saqlansa githubda global saqlanadi yani devicedan tashqarida turadi.
+githubni qulayligi shundaki agar prolizi bilsez boshqa devicedan ham bemalol kirib codelarizi ustida ishlashiz mumkin.
+boshqacha qilib aytganda github bu dasturchini yuzi unda biz qancha vaqtdan beri dasturlash olamida mavjudligimiz yozgan codelarimi proyektlarimi kko'rinib turadi.
+comandalar: gti init, git checkout, git status, git branch, git switch
+
+
+5-savol
+Lambda funksiyasiga ta’rif bering.
+
+javob:
+lambda funksiya bu bir qatorda yoziladigan return bo'lmasada o'zidan qiymat qaytaradigan funksiya.
+u doim bir o'zgarivchiga tenglanadi yoki print qilinadi chunki u qiymat qaytaradi.
+misol uchun:
+a=lambda b: b*2
+b=8
+print(a)
+output 16

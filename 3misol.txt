@@ -1,0 +1,2 @@
+kiritilgan sekundlar: 123456789
+kun: 1428, soat: 21, minut: 33, sekund:9
